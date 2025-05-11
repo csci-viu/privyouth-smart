@@ -21,8 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">
-                    Home
-                    <!-- <img src="assets/img/navbar-logo.svg" alt="..." /> -->
+                    <i class="fas fa-home fa-lg text-white"></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -408,79 +407,48 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-
-                    <h3 class="section-subheading text-muted">Interested in joining a focus group or roundtable? Fll out the form below and we'll get back to you shortly.</h3>
+                    <h3 class="section-subheading" style="color: rgb(221, 219, 207);">
+                        Interested in joining a focus group (for youth 16-24) or a stakeholder roundtable? Fill out the form below and we'll get back to you shortly.
+                    </h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form action="https://formspree.io/f/xrbpqelp" method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div class="form-group mb-4">
+                                <!-- Name input -->
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required />
                             </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div class="form-group mb-4">
+                                <!-- Email address input -->
+                                <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required />
                             </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            <div class="form-group mb-4">
+                                <!-- Phone number input -->
+                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" />
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <div class="form-group mb-4">
+                                <!-- Message input -->
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message *" required></textarea>
                             </div>
                         </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                    </div>
                 </form>
             </div>
         </section>
+
+
+        
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -498,6 +466,7 @@
                 </div>
             </div>
         </footer>
+        
         <!-- Portfolio Modals-->
         <!-- Portfolio item 1 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -516,7 +485,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Date:</strong>
-                                            Feb 22, 2026 (TBC)
+                                            Feb 23, 2026 (TBC)
                                         </li>
                                         <li>
                                             <strong>Time:</strong>
@@ -560,7 +529,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Date:</strong>
-                                            March 1, 2026 (TBC)
+                                            March 2, 2026 (TBC)
                                         </li>
                                         <li>
                                             <strong>Time:</strong>
@@ -603,7 +572,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Date:</strong>
-                                            Feb 23, 2026 (TBC)
+                                            Feb 24, 2026 (TBC)
                                         </li>
                                         <li>
                                             <strong>Time:</strong>
@@ -758,10 +727,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
