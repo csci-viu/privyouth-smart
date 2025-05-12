@@ -1,370 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>OPC - PrivYouth-Smart</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-                popoverTriggerList.map(function (popoverTriggerEl) {
-                    return new bootstrap.Popover(popoverTriggerEl);
-                });
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJX9NJXG53"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-WJX9NJXG53');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OPC - PrivYouth-Smart</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl);
             });
-        </script>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">
-                    <i class="fas fa-home fa-lg text-white"></i>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#context">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Engage</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Articles</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                    </ul>
-                </div>
+        });
+    </script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <i class="fas fa-home fa-lg text-white"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#context">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Engage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                </ul>
             </div>
-        </nav>
-        
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <h2 class="mb-4 text-uppercase">
-                    Empowering Young Canadians in the Smart Device Era
-                </h2>
-                <h4 class="text-white-75 mb-5">A Privacy-by-Design Research and Public Engagement Initiative</h4>
+        </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase">
+                Empowering Young Canadians in the Smart Device Era
+            </h2>
+            <h4 class="text-white-75 mb-5">A Privacy-by-Design Research and Public Engagement Initiative</h4>
+            <hr class="divider" />
+            <div>
+                <div style="justify-content: center; flex-direction: column; align-items: center;">
+                    <p class="text-white-75 text-center mb-4">This project is proudly funded by the <a
+                            href="https://www.priv.gc.ca/en/opc-actions-and-decisions/research/funding-for-privacy-research-and-knowledge-translation/cp_bg/"
+                            target="_blank" style="text-decoration: none; color: #fffffff9; font-weight: bold;">Office
+                            of the Privacy Commissioner of Canada's (OPC) Contributions Program </a>.</p>
+
+                </div>
+
                 <hr class="divider" />
-                <div>
-                        <div style="justify-content: center; flex-direction: column; align-items: center;">
-                            <p class="text-white-75 text-center mb-4">This project is proudly funded by the <a href="https://www.priv.gc.ca/en/opc-actions-and-decisions/research/funding-for-privacy-research-and-knowledge-translation/cp_bg/" target="_blank" style="text-decoration: none; color: #fffffff9; font-weight: bold;">Office of the Privacy Commissioner of Canada's (OPC) Contributions Program </a>.</p>
 
-                        </div>
-
-                        <hr class="divider" />
-
-                    <a class="btn btn-primary btn-xl text-uppercase" href="#context">More Info</a>
-                </div>
-            </div>           
-        </header>
-
-        <!-- About-->
-        <section class="page-section bg-primary" id="context">
-            <div class="container px-4 px-lg-5">
-                <div class="text-center">
-                        <h2 class=" section-heading text-uppercase">About</h2>
-                        <div class="section-subheading text-muted">The overarching goal of this project is to empower youth (ages 16-24) with the knowledge and tools needed to safeguard their personal data in a rapidly evolving digital landscape, particularly in voice-activated AI apps. By emphasizing privacy-by-design principles and public engagement, we seek to foster an environment where responsible, privacy-centric AI practices become the norm. To achieve this goal, we have established the following research questions:
-                        </div>
-                        <hr class="divider divider-light" />
-                        <div>
-                            <h4 class=" section-heading text-uppercase">Research Questions</h3>
-                            <ul class="text-muted">
-                                <li style="list-style-type:none;" >
-                                    🐾Youth concerns around data collection and usage in voice-activated AI (e.g., Siri, Alexa).
-                                </li>
-                                <li style="list-style-type:none;">   
-                                    🐾Influence of privacy risk, benefit perception, and transparency on trust and adoption.
-                                </li>
-                                <li style="list-style-type:none;">
-                                    🐾Current privacy controls used by youth and their impact on self-efficacy and protective behavior.
-                                </li>
-                                <li style="list-style-type:none;">   
-                                    🐾Youth-suggested solutions (technical, policy, educational) to address privacy gaps and improve user control.
-                                </li>
-                            </ul>
-                        </div>
-                        <hr class="divider" />
-
-                        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Project</a>
-                    </div>
-                </div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#context">More Info</a>
             </div>
-        </section>
+        </div>
+    </header>
 
-
-        <!--Services -- Project-->
-        <section class="page-section" id="services"> <!-- Project -->
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Project</h2>
-                    <div class="section-subheading text-muted">As part of our research on youth  interactions with voice-enabled technologies, we're conducting a national survey, online focus groups, and a stakeholder roundtable. These research activities are designed to gather insights directly from young people and refine our recommendations through expert feedback from educators, developers, and policymakers.</div>
+    <!-- About-->
+    <section class="page-section bg-primary" id="context">
+        <div class="container px-4 px-lg-5">
+            <div class="text-center">
+                <h2 class=" section-heading text-uppercase">About</h2>
+                <div class="section-subheading text-muted">The overarching goal of this project is to empower youth
+                    (ages 16-24) with the knowledge and tools needed to safeguard their personal data in a rapidly
+                    evolving digital landscape, particularly in voice-activated AI apps. By emphasizing
+                    privacy-by-design principles and public engagement, we seek to foster an environment where
+                    responsible, privacy-centric AI practices become the norm. To achieve this goal, we have established
+                    the following research questions:
                 </div>
-                <br>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <a href="https://forms.office.com/r/EXL4pm1f2c" target="_blank" style="text-decoration: none; color: black;">
+                <hr class="divider divider-light" />
+                <div>
+                    <h4 class=" section-heading text-uppercase">Research Questions</h3>
+                        <ul class="text-muted">
+                            <li style="list-style-type:none;">
+                                🐾Youth concerns around data collection and usage in voice-activated AI (e.g., Siri,
+                                Alexa).
+                            </li>
+                            <li style="list-style-type:none;">
+                                🐾Influence of privacy risk, benefit perception, and transparency on trust and adoption.
+                            </li>
+                            <li style="list-style-type:none;">
+                                🐾Current privacy controls used by youth and their impact on self-efficacy and
+                                protective behavior.
+                            </li>
+                            <li style="list-style-type:none;">
+                                🐾Youth-suggested solutions (technical, policy, educational) to address privacy gaps and
+                                improve user control.
+                            </li>
+                        </ul>
+                </div>
+                <hr class="divider" />
+
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Project</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!--Services -- Project-->
+    <section class="page-section" id="services"> <!-- Project -->
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Project</h2>
+                <div class="section-subheading text-muted">As part of our research on youth interactions with
+                    voice-enabled technologies, we're conducting a national survey, online focus groups, and a
+                    stakeholder roundtable. These research activities are designed to gather insights directly from
+                    young people and refine our recommendations through expert feedback from educators, developers, and
+                    policymakers.</div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="https://forms.office.com/r/EXL4pm1f2c" target="_blank"
+                        style="text-decoration: none; color: black;">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-clipboard-list fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-0">Survey</h4></a>
-                        <p class="text-muted">If you're 16-24, click the survey icon above to share your views on voice assistants like Siri and Alexa. Responses are confidential and used for privacy research.
-                        </p>
-                            
-                    </div>
-                    <div class="col-md-4">
-                        <a href=#contact style="text-decoration: none; color: black;">
+                        <h4 class="my-0">Survey</h4>
+                    </a>
+                    <p class="text-muted">If you're 16-24, click the survey icon above to share your views on voice
+                        assistants like Siri and Alexa. Responses are confidential and used for privacy research.
+                    </p>
+
+                </div>
+                <div class="col-md-4">
+                    <a href=#contact style="text-decoration: none; color: black;">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-users fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-0">Focus Group</h4>
-                        </a>
-                        <p class="text-muted">We're hosting 1-hour online sessions to hear your thoughts on voice assistants and digital privacy. If you're 16-24, we'd love to hear from you. Click the link above to sign up and participate.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href=#contact style="text-decoration: none; color: black;"><span class="fa-stack fa-4x">
+                    </a>
+                    <p class="text-muted">We're hosting 1-hour online sessions to hear your thoughts on voice assistants
+                        and digital privacy. If you're 16-24, we'd love to hear from you. Click the link above to sign
+                        up and participate.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href=#contact style="text-decoration: none; color: black;"><span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-people-arrows fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-0">Round-Table</h4> </a>
-                        <p class="text-muted">We will be looking for parents, educators, policymakers, and AI developers to help refince youth-centered recommendations on privacy. If you're interested in contributing, click the link above to express your interest.
-                        </p>
+                        <h4 class="my-0">Round-Table</h4>
+                    </a>
+                    <p class="text-muted">We will be looking for parents, educators, policymakers, and AI developers to
+                        help refince youth-centered recommendations on privacy. If you're interested in contributing,
+                        click the link above to express your interest.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -- Engage -->
+    <section class="page-section bg-light" id="portfolio"> <!-- Engage -->
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Youth Engagement Activities
+                </h2>
+                <h3 class="section-subheading text-muted">Engaging youth to shape the future of voice-enabled AI
+                    systems—ethically and inclusively.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Live Session</div>
+                            <div class="portfolio-caption-subheading text-muted">Insight</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Digital Event</div>
+                            <div class="portfolio-caption-subheading text-muted">Awareness</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Let's Connect</div>
+                            <div class="portfolio-caption-subheading text-muted">Community</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Webinar Recap</div>
+                            <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Seminar Recap</div>
+                            <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Privacy Video</div>
+                            <div class="portfolio-caption-subheading text-muted">Knowledge </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Portfolio Grid -- Engage -->
-        <section class="page-section bg-light" id="portfolio"> <!-- Engage -->
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Youth Engagement Activities
-                    </h2>
-                    <h3 class="section-subheading text-muted">Engaging youth to shape the future of voice-enabled AI systems—ethically and inclusively.</h3>
+    <!-- About -- Articles-->
+    <section class="page-section" id="about"> <!-- Articles-->
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Press & Media</h2>
+                <h3 class="section-subheading text-muted">Public conversations inspired by our research.</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>August 2025</h4>
+                            <h4 class="subheading">The Right to Be Heard (TBA)</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Exploring how young voices challenge the silence imposed by opaque AI
+                                systems.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>September 2025</h4>
+                            <h4 class="subheading">Echoes of Consent (TBA)</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">A conversation on what it truly means to say “yes” in the age of
+                                ambient surveillance.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>December 2025</h4>
+                            <h4 class="subheading">Designing for Doubt (TBA)</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">When trust is uncertain, how should technology earn its place?
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>January 2026</h4>
+                            <h4 class="subheading">The Ethics of Listening (TBA)</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Turning passive collection into active accountability—rethinking voice
+                                as data.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Be Part
+                            <br />
+                            Of Our
+                            <br />
+                            Story!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Project Team</h2>
+                <h3 class="section-subheading text-muted">One line of code, one conversation, one safeguard at a time.
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                        <h4>Dr. Ajay Shrestha</h4>
+                        <p class="text-muted">Principal Investigator <br> Vancouver Island University</p>
+                        <a class="btn btn-dark btn-social mx-2"
+                            href="https://github.com/csci-viu/privacy-aware-ai-for-youth"
+                            aria-label="Ajay Shrestha GitHub Profile" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2"
+                            href="https://news.viu.ca/utilities/news/find-expert/dr-ajay-shrestha"
+                            aria-label="Ajay Shrestha Personal Website" target="_blank"><i class="fas fa-globe"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/ajay-k-shrestha/"
+                            aria-label="Ajay Shrestha LinkedIn Profile" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Live Session</div>
-                                <div class="portfolio-caption-subheading text-muted">Insight</div>
-                            </div>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                        <h4>ABC</h4>
+                        <p class="text-muted">Project Personnel<br> Vancouver Island University</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"
+                            aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"
+                            aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Digital Event</div>
-                                <div class="portfolio-caption-subheading text-muted">Awareness</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Let's Connect</div>
-                                <div class="portfolio-caption-subheading text-muted">Community</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Webinar Recap</div>
-                                <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Seminar Recap</div>
-                                <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Privacy Video</div>
-                                <div class="portfolio-caption-subheading text-muted">Knowledge </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                        <h4>ABC</h4>
+                        <p class="text-muted">Lead Developer<br> Vancouver Island University</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- About -- Articles-->
-        <section class="page-section" id="about"> <!-- Articles-->
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Press & Media</h2>
-                    <h3 class="section-subheading text-muted">Public conversations inspired by our research.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>August 2025</h4>
-                                <h4 class="subheading">The Right to Be Heard (TBA)</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Exploring how young voices challenge the silence imposed by opaque AI systems.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>September 2025</h4>
-                                <h4 class="subheading">Echoes of Consent (TBA)</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">A conversation on what it truly means to say “yes” in the age of ambient surveillance.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2025</h4>
-                                <h4 class="subheading">Designing for Doubt (TBA)</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">When trust is uncertain, how should technology earn its place?
-                            </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>January 2026</h4>
-                                <h4 class="subheading">The Ethics of Listening (TBA)</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Turning passive collection into active accountability—rethinking voice as data.
-                            </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Project Team</h2>
-                    <h3 class="section-subheading text-muted">One line of code, one conversation, one safeguard at a time.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Dr. Ajay Shrestha</h4>
-                            <p class="text-muted">Principal Investigator <br> Vancouver Island University</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/csci-viu/privacy-aware-ai-for-youth" aria-label="Ajay Shrestha GitHub Profile" target="_blank"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://news.viu.ca/utilities/news/find-expert/dr-ajay-shrestha" aria-label="Ajay Shrestha Personal Website" target="_blank"><i class="fas fa-globe"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/ajay-k-shrestha/" aria-label="Ajay Shrestha LinkedIn Profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>ABC</h4>
-                            <p class="text-muted">Project Personnel<br> Vancouver Island University</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>ABC</h4>
-                            <p class="text-muted">Lead Developer<br> Vancouver Island University</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Our team brings together researchers, designers, and youth collaborators committed to advancing ethical, privacy-conscious AI. With diverse expertise across technology, education, and policy, we work together to ensure that young people's voices are not only heard—but actively shape the future of voice-enabled systems.</p></div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="large text-muted">Our team brings together researchers, designers, and youth collaborators
+                        committed to advancing ethical, privacy-conscious AI. With diverse expertise across technology,
+                        education, and policy, we work together to ensure that young people's voices are not only
+                        heard—but actively shape the future of voice-enabled systems.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Clients-->
-        <!-- <div class="py-5">
+    <!-- Clients-->
+    <!-- <div class="py-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
@@ -383,362 +448,409 @@
             </div>
         </div> -->
 
-        <section class="page-section" id="publications">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Publication</h2>
-                    <div class="section-subheading text-muted" style="font-style: italic;">Here are some of our latest publications from this project. Click on the links to read more.</div>
-                    <br>
-                </div> 
-                
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-10">
-                        <div class="publication">
-                            <h3 class="publication-title">Publication#X</h3>
-                            <p class="publication-author">Privacy-Aware AI Research</p>
-                            <p class="publication-date">Published: TBA </p>
+    <section class="page-section" id="publications">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Publication</h2>
+                <div class="section-subheading text-muted" style="font-style: italic;">Here are some of our latest
+                    publications from this project. Click on the links to read more.</div>
+                <br>
+            </div>
 
-                            <a class="btn btn-primary btn-sm">📥 Final Report</a>                       
-                        </div>
-                        <hr class="divider-light" />
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="publication">
+                        <h3 class="publication-title">Publication#X</h3>
+                        <p class="publication-author">Privacy-Aware AI Research</p>
+                        <p class="publication-date">Published: TBA </p>
 
-                        <div class="publication">
-                            <h3 class="publication-title">Publication#1</h3>
-                            <p class="publication-author">Authors: </p>
-                            <p class="publication-date">Published on: </p>
-                            <a class="btn btn-primary btn-sm">Read More</a> 
-                        </div>
+                        <a class="btn btn-primary btn-sm">📥 Final Report</a>
+                    </div>
+                    <hr class="divider-light" />
+
+                    <div class="publication">
+                        <h3 class="publication-title">Publication#1</h3>
+                        <p class="publication-author">Authors: </p>
+                        <p class="publication-date">Published on: </p>
+                        <a class="btn btn-primary btn-sm">Read More</a>
                     </div>
                 </div>
-                <div class="text-center">
+            </div>
+            <div class="text-center">
                 <a class="btn btn-primary btn-xl text-uppercase text-center" href="#contact">contact Us</a>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading" style="color: rgb(221, 219, 207);">
+                    Interested in joining a focus group (for youth 16-24) or a stakeholder roundtable? Fill out the form
+                    below and we'll get back to you shortly.
+                </h3>
+            </div>
+            <form action="https://formspree.io/f/xrbpqelp" method="POST">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group mb-4">
+                            <!-- Name input -->
+                            <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *"
+                                required />
+                        </div>
+                        <div class="form-group mb-4">
+                            <!-- Email address input -->
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *"
+                                required />
+                        </div>
+                        <div class="form-group mb-4">
+                            <!-- Phone number input -->
+                            <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mb-4">
+                            <!-- Message input -->
+                            <textarea class="form-control" id="message" name="message" rows="6"
+                                placeholder="Your Message *" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit Button-->
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading" style="color: rgb(221, 219, 207);">
-                        Interested in joining a focus group (for youth 16-24) or a stakeholder roundtable? Fill out the form below and we'll get back to you shortly.
-                    </h3>
+                    <button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
-                <form action="https://formspree.io/f/xrbpqelp" method="POST">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group mb-4">
-                                <!-- Name input -->
-                                <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required />
-                            </div>
-                            <div class="form-group mb-4">
-                                <!-- Email address input -->
-                                <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required />
-                            </div>
-                            <div class="form-group mb-4">
-                                <!-- Phone number input -->
-                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group mb-4">
-                                <!-- Message input -->
-                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message *" required></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit Button-->
-                    <div class="text-center">
-                        <button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+            </form>
+        </div>
+    </section>
 
 
-        
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Privacy Aware AI 2025-2026</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="https://gov.viu.ca/access-and-privacy-viu" target="_blank">Privacy Policy</a>
-                        <a tabindex="0" class="link-dark text-decoration-none" role="button"
-                        data-bs-toggle="popover" data-bs-trigger="focus" title="Terms of Use"
+
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Privacy Aware AI 2025-2026</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="https://gov.viu.ca/access-and-privacy-viu"
+                        target="_blank">Privacy Policy</a>
+                    <a tabindex="0" class="link-dark text-decoration-none" role="button" data-bs-toggle="popover"
+                        data-bs-trigger="focus" title="Terms of Use"
                         data-bs-content="This site is for educational purposes only. Content may not be reused without permission. External links are not endorsed.">
                         <i class="fas fa-info-circle ms-1"></i> Terms of Use
-                        </a>
-                    </div>
+                    </a>
                 </div>
             </div>
-        </footer>
-        
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Workshop</h2>
-                                    <p class="item-intro text-muted">Exploring ethical design and youth-centered privacy in voice-enabled smart devices.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Join us for a hands-on workshop where youth participants will explore the challenges and opportunities of voice-enabled technologies. Through interactive activities and collaborative discussions, this session will generate actionable ideas for designing more transparent, privacy-conscious voice-enabled systems!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Date:</strong>
-                                            Feb 23, 2026 (TBC)
-                                        </li>
-                                        <li>
-                                            <strong>Time:</strong>
-                                            1:00 PM - 4:00 PM (PDT)
-                                        </li>
-                                        <li>
-                                            <strong>Venue:</strong>
-                                            Vancouver Island University, Building 305, Room 345
-                                        </li>
-                                        <li>
-                                            <strong>Register:</strong>
-                                            <a href="#">Sign Up Here (TBD)</a>
-                                        </li>
-                                    </ul>
-                                    
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Workshop</h2>
+                                <p class="item-intro text-muted">Exploring ethical design and youth-centered privacy in
+                                    voice-enabled smart devices.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>Join us for a hands-on workshop where youth participants will explore the challenges
+                                    and opportunities of voice-enabled technologies. Through interactive activities and
+                                    collaborative discussions, this session will generate actionable ideas for designing
+                                    more transparent, privacy-conscious voice-enabled systems!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        Feb 23, 2026 (TBC)
+                                    </li>
+                                    <li>
+                                        <strong>Time:</strong>
+                                        1:00 PM - 4:00 PM (PDT)
+                                    </li>
+                                    <li>
+                                        <strong>Venue:</strong>
+                                        Vancouver Island University, Building 305, Room 345
+                                    </li>
+                                    <li>
+                                        <strong>Register:</strong>
+                                        <a href="#">Sign Up Here (TBD)</a>
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Webinar</h2>
-                                    <p class="item-intro text-muted">Introducing key privacy challenges in smart voice technologies.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>This online webinar will provide an accessible introduction to the privacy risks and ethical concerns associated with voice-enabled AI systems. Featuring researchers and guest speakers, the session will explore how youth interact with these technologies and what responsible design and governance could look like!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Date:</strong>
-                                            March 2, 2026 (TBC)
-                                        </li>
-                                        <li>
-                                            <strong>Time:</strong>
-                                            11:00 AM - 12:30 PM (PDT)
-                                        </li>
-                                        <li>
-                                            <strong>Venue:</strong>
-                                            Online (Microsoft Teams)
-                                        </li>
-                                        <li>
-                                            <strong>Register:</strong>
-                                            <a href="#">Join the Webinar (TBA)</a>
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Webinar</h2>
+                                <p class="item-intro text-muted">Introducing key privacy challenges in smart voice
+                                    technologies.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <p>This online webinar will provide an accessible introduction to the privacy risks and
+                                    ethical concerns associated with voice-enabled AI systems. Featuring researchers and
+                                    guest speakers, the session will explore how youth interact with these technologies
+                                    and what responsible design and governance could look like!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 2, 2026 (TBC)
+                                    </li>
+                                    <li>
+                                        <strong>Time:</strong>
+                                        11:00 AM - 12:30 PM (PDT)
+                                    </li>
+                                    <li>
+                                        <strong>Venue:</strong>
+                                        Online (Microsoft Teams)
+                                    </li>
+                                    <li>
+                                        <strong>Register:</strong>
+                                        <a href="#">Join the Webinar (TBA)</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Meetup</h2>
-                                    <p class="item-intro text-muted">Vancouver Digital Networking.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>This in-person meetup usually brings together youth, researchers, and community members for an open conversation on AI, digital privacy and smart technologies. The event offers a space to share experiences, exchange ideas, and build local connections around responsible tech use!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Date:</strong>
-                                            Feb 24, 2026 (TBC)
-                                        </li>
-                                        <li>
-                                            <strong>Time:</strong>
-                                            5:30 PM - 7:30 PM (PDT)
-                                        </li>
-                                        <li>
-                                            <strong>Venue:</strong>
-                                            UBC Robson Square, Vancouver (TBA)
-                                        </li>
-                                        <li>
-                                            <strong>Register:</strong>
-                                            <a href="#">RSVP Now (TBA)</a>
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Meetup</h2>
+                                <p class="item-intro text-muted">Vancouver Digital Networking.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <p>This in-person meetup usually brings together youth, researchers, and community
+                                    members for an open conversation on AI, digital privacy and smart technologies. The
+                                    event offers a space to share experiences, exchange ideas, and build local
+                                    connections around responsible tech use!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        Feb 24, 2026 (TBC)
+                                    </li>
+                                    <li>
+                                        <strong>Time:</strong>
+                                        5:30 PM - 7:30 PM (PDT)
+                                    </li>
+                                    <li>
+                                        <strong>Venue:</strong>
+                                        UBC Robson Square, Vancouver (TBA)
+                                    </li>
+                                    <li>
+                                        <strong>Register:</strong>
+                                        <a href="#">RSVP Now (TBA)</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Webinar 2024 - Highlight</h2>
-                                    <p class="item-intro text-muted">Privacy Laws & AI: Navigating Emerging Challenges.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>This recorded webinar explored the evolving legal and ethical landscape surrounding artificial intelligence and data privacy. Featuring voices from law, policy, and technology, the session examined how emerging regulations intersect with youth rights and voice-enabled systems.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Date:</strong>
-                                            March 7, 2025
-                                        </li>
-                                        <li>
-                                            <strong>Time:</strong>
-                                            12:30 PM - 2:00 PM (PST)
-                                        </li>
-                                        <li>
-                                            <strong>Venue:</strong>
-                                            Online (Recorded)
-                                        </li>
-                                        <li>
-                                            <strong>Event Page:</strong>
-                                            <a href="https://www.youtube.com/watch?v=Jpa277UnkVc" target="_blank">View Recording</a>
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Webinar 2024 - Highlight</h2>
+                                <p class="item-intro text-muted">Privacy Laws & AI: Navigating Emerging Challenges.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>This recorded webinar explored the evolving legal and ethical landscape surrounding
+                                    artificial intelligence and data privacy. Featuring voices from law, policy, and
+                                    technology, the session examined how emerging regulations intersect with youth
+                                    rights and voice-enabled systems.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 7, 2025
+                                    </li>
+                                    <li>
+                                        <strong>Time:</strong>
+                                        12:30 PM - 2:00 PM (PST)
+                                    </li>
+                                    <li>
+                                        <strong>Venue:</strong>
+                                        Online (Recorded)
+                                    </li>
+                                    <li>
+                                        <strong>Event Page:</strong>
+                                        <a href="https://www.youtube.com/watch?v=Jpa277UnkVc" target="_blank">View
+                                            Recording</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Seminar 2024 - Highlight</h2>
-                                    <p class="item-intro text-muted">AI Ethics and Privacy</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>This in-person seminar brought together students, faculty, staff, AI researchers and RAs to discuss pressing ethical questions at the intersection of AI and privacy. The session featured presentations on emerging risks, regulatory trends, and youth perspectives from research assistants.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Date:</strong>
-                                            March 13, 2025 (Thursday)
-                                        </li>
-                                        <li>
-                                            <strong>Time:</strong>
-                                            11:30 AM - 2:15 PM (PST)
-                                        </li>
-                                        <li>
-                                            <strong>Venue:</strong>
-                                            Madrona Room, VIU Library
-                                        </li>
-                                        <li>
-                                            <strong>Event Page:</strong>
-                                            <a href="https://www.youtube.com/watch?v=6JfZoaeVwxY" target="_blank">View Event Details</a>
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Seminar 2024 - Highlight</h2>
+                                <p class="item-intro text-muted">AI Ethics and Privacy</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <p>This in-person seminar brought together students, faculty, staff, AI researchers and
+                                    RAs to discuss pressing ethical questions at the intersection of AI and privacy. The
+                                    session featured presentations on emerging risks, regulatory trends, and youth
+                                    perspectives from research assistants.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Date:</strong>
+                                        March 13, 2025 (Thursday)
+                                    </li>
+                                    <li>
+                                        <strong>Time:</strong>
+                                        11:30 AM - 2:15 PM (PST)
+                                    </li>
+                                    <li>
+                                        <strong>Venue:</strong>
+                                        Madrona Room, VIU Library
+                                    </li>
+                                    <li>
+                                        <strong>Event Page:</strong>
+                                        <a href="https://www.youtube.com/watch?v=6JfZoaeVwxY" target="_blank">View Event
+                                            Details</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Privacy Video</h2>
-                                    <p class="item-intro text-muted">Your Voice, Your Privacy: Understanding Smart Tech</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Our short and accessible explainer video dives into the heart of the issue: How do young people understand and navigate privacy in AI-powered systems? This video summarizes key insights from our research, offering practical tips for students, parents, educators, and developers alike. Whether you're just starting to explore AI privacy or you're working on building ethical AI systems, this is a great place to begin.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Release Date:</strong>
-                                            April 2025
-                                        </li>
-                                        <li>
-                                            <strong>Platform:</strong>
-                                            YouTube
-                                        </li>
-                                        <li>
-                                            <strong>Watch Video:</strong>
-                                            <a href="https://www.youtube.com/watch?v=wIc50ju_OUo" target="_blank">View on YouTube</a>
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Event
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Privacy Video</h2>
+                                <p class="item-intro text-muted">Your Voice, Your Privacy: Understanding Smart Tech</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <p>Our short and accessible explainer video dives into the heart of the issue: How do
+                                    young people understand and navigate privacy in AI-powered systems? This video
+                                    summarizes key insights from our research, offering practical tips for students,
+                                    parents, educators, and developers alike. Whether you're just starting to explore AI
+                                    privacy or you're working on building ethical AI systems, this is a great place to
+                                    begin.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Release Date:</strong>
+                                        April 2025
+                                    </li>
+                                    <li>
+                                        <strong>Platform:</strong>
+                                        YouTube
+                                    </li>
+                                    <li>
+                                        <strong>Watch Video:</strong>
+                                        <a href="https://www.youtube.com/watch?v=wIc50ju_OUo" target="_blank">View on
+                                            YouTube</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Event
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
