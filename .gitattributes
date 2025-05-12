@@ -1,0 +1,22 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Explicitly treat these as text (LF endings in repo)
+*.html text
+*.css text
+*.js text
+*.py text
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.txt text
+
+# Treat images and binaries as binary (no diff, no conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.pdf binary
