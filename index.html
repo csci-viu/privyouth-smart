@@ -15,6 +15,14 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+                popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl);
+                });
+            });
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -132,7 +140,7 @@
                             <i class="fas fa-people-arrows fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-0">Round-Table</h4> </a>
-                        <p class="text-muted">We're looking for parents, educators, policymakers, and AI developers to help refince youth-centered recommendations on privacy. If you're interested in contributing, click the link above to participate.
+                        <p class="text-muted">We will be looking for parents, educators, policymakers, and AI developers to help refince youth-centered recommendations on privacy. If you're interested in contributing, click the link above to express your interest.
                         </p>
                     </div>
                 </div>
@@ -155,10 +163,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Workshop</div>
+                                <div class="portfolio-caption-heading">Live Session</div>
                                 <div class="portfolio-caption-subheading text-muted">Insight</div>
                             </div>
                         </div>
@@ -170,10 +178,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Webinar</div>
+                                <div class="portfolio-caption-heading">Digital Event</div>
                                 <div class="portfolio-caption-subheading text-muted">Awareness</div>
                             </div>
                         </div>
@@ -185,10 +193,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Meetup</div>
+                                <div class="portfolio-caption-heading">Let's Connect</div>
                                 <div class="portfolio-caption-subheading text-muted">Community</div>
                             </div>
                         </div>
@@ -203,8 +211,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Webinar 2024</div>
-                                <div class="portfolio-caption-subheading text-muted">Highlight</div>
+                                <div class="portfolio-caption-heading">Webinar Recap</div>
+                                <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
                             </div>
                         </div>
                     </div>
@@ -215,11 +223,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Seminar 2024</div>
-                                <div class="portfolio-caption-subheading text-muted">Highlight</div>
+                                <div class="portfolio-caption-heading">Seminar Recap</div>
+                                <div class="portfolio-caption-subheading text-muted">Highlight 2024</div>
                             </div>
                         </div>
                     </div>
@@ -230,7 +238,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Privacy Video</div>
@@ -289,7 +297,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>January 2026</h4>
-                                <h4 class="subheading">The Ethics of Listening</h4>
+                                <h4 class="subheading">The Ethics of Listening (TBA)</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Turning passive collection into active accountability—rethinking voice as data.
                             </p></div>
@@ -460,8 +468,12 @@
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <a class="link-dark text-decoration-none me-3" href="https://gov.viu.ca/access-and-privacy-viu" target="_blank">Privacy Policy</a>
+                        <a tabindex="0" class="link-dark text-decoration-none" role="button"
+                        data-bs-toggle="popover" data-bs-trigger="focus" title="Terms of Use"
+                        data-bs-content="This site is for educational purposes only. Content may not be reused without permission. External links are not endorsed.">
+                        <i class="fas fa-info-circle ms-1"></i> Terms of Use
+                        </a>
                     </div>
                 </div>
             </div>
